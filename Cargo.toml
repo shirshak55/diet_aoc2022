@@ -8,11 +8,23 @@ edition = "2021"
 
 
 [[bin]]
-name="day_1"
-path="src/dec_1_part_a.rs"
+name="dec_1_1"
+path="src/dec_1_1.rs"
 
 
 
 [[bin]]
-name="day_2"
-path="src/dec_1_part_b.rs"
+name="dec_1_2"
+path="src/dec_1_1.rs"
+
+
+
+[[bin]]
+name="dec_2_1"
+path="src/dec_2_1.rs"
+
+
+
+[[bin]]
+name="dec_2_2"
+path="src/dec_2_2.rs"

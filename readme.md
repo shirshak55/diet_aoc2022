@@ -10,12 +10,8 @@ Rules:
 2. No if
 3. Ask [https://www.twitch.tv/museun](museun) :D
 
-To run
+Running: If you want to run dec 1, part 1
 
 ```
-cargo run --bin day_1
-```
-
-```
-cargo run --bin day_2
+cargo run --bin dec_1_1
 ```
