@@ -20,5 +20,5 @@ fn main() {
         })
         .map(|v| v.into_iter().sum())
         .map(|v: isize| println!("The answer is {}", v))
-        .unwrap();
+        .unwrap()
 }
