@@ -30,7 +30,6 @@ fn main() {
                 .unwrap()
         })
         .map(|v| (v[0], v[1], v[2]))
-        .map(|v| dbg!(v))
         .map(|v| println!("The partb answer is {}", v.0 + v.1 + v.2))
         .unwrap();
 }

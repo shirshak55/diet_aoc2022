@@ -10,7 +10,6 @@ fn main() {
             w.chunks(3)
                 .into_iter()
                 .map(|v| Vec::from(v.clone()))
-                // .map(|s| dbg!(s))
                 .collect::<Vec<Vec<_>>>()
         })
         .map(|v: Vec<Vec<std::collections::HashSet<char>>>| {

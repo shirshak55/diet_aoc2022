@@ -18,7 +18,7 @@ fn main() {
                 .map(|w| v.1[(w.0)][(w.1)])
                 .collect::<Vec<_>>()
         })
-        .map(|v| dbg!(v).into_iter().sum())
+        .map(|v| v.into_iter().sum())
         .map(|v: isize| println!("The answer is {}", v))
         .unwrap()
 }

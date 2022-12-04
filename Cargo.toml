@@ -37,3 +37,12 @@ path="src/dec_3_1.rs"
 [[bin]]
 name="dec_3_2"
 path="src/dec_3_2.rs"
+
+[[bin]]
+name="dec_4_1"
+path="src/dec_4_1.rs"
+
+
+[[bin]]
+name="dec_4_2"
+path="src/dec_4_2.rs"
